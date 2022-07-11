@@ -19,7 +19,12 @@ from postagem.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',index,name="index"),
-    path('informatica/',informatica,name="informatica"),
-    path('noticia/',noticia,name="noticia")
+    path('',index, name="index"),
+    path('informatica/',informatica, name="informatica"),
+    path('noticia/', noticia, name="noticia"),
+    path('alimentos/',alimentos,name="alimentos"),
+    path('apicultura/',apicultura,name="apicultura"),
+    path('quimica/',quimica,name="quimica"),
+    path('ads/',ads,name="ads"),
+    path('agroindustria/',agroindustria,name="agroindustria")
 ]
